@@ -1,0 +1,19 @@
+
+<div class="card mt-5">
+    <div class="card-header">KMI skaičiuoklė</div>
+    <div class="card-body">
+        <div class="input-group mb-3">
+            <input type="number" class="form-control" placeholder="Įveskite savo ūgį" [(ngModel)]='ugis'>   <!-- Nuskaito įvestus duomenis ir perduoda į component.ts, būtina įrašyti FormsModule į app.module.ts!-->
+            <span class="input-group-text">cm</span>                         
+        </div>
+        <div class="input-group mb-3">
+            <input type="number" class="form-control" placeholder="Įveskite savo svorį" [(ngModel)]='mase'> <!-- Nuskaito įvestus duomenis ir perduoda į component.ts, būtina įrašyti FormsModule į app.module.ts!-->
+            <span class="input-group-text">kg</span>
+        </div>
+        <button class="btn btn-success" (click)="calc()">SKAIČIUOTI</button>                    <!-- Grąžina 'calc' iš component.ts rezultatą-->
+        <hr>
+        <div class="alert alert-light text-end">
+            JŪSŲ KMI: {{ kmi.toFixed(1) }}                                                                  <!-- toFixed(1) palieka (1) skaičių po kablelio -->
+        </div>
+    </div>
+</div>
