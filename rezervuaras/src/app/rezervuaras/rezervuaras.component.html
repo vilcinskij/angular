@@ -20,9 +20,19 @@
         </div>
     </div>
     <div class="col-6">
-        <div class="card" *ngIf="rezultatas!=0">
+        <div class="card" *ngIf="rezultatas!=0; else instrukcijos">                                                                   <!-- *ngIf - nerodo konteinerio, jeigu sąlyga neteisinga, else - rodo konteinerį su #instrukcijos-->
             <div class="card-header text-center">Skaičiavimų rezultatai</div>
             <div class="card-body">Talpa bus užpildyta: {{ rezultatas}} %</div>
         </div>
+        <ng-template #instrukcijos>                                                                                                   <!-- # - local reference (lokali nuoroda)-->
+            <div class="card">
+                <div class="card-header text-center">Instrukcijos</div>
+                <div class="card-body">
+                    Įveskite rezervuaro tlpa litrais, kokiu greičiu pildoma talpa litrais per valandą ir kiek valandų bus pildoma talpa.
+                    <br>
+                    Tuomet paspauskite mygtuką skaičiuoti.
+                </div>
+            </div>
+        </ng-template>
     </div>
 </div>
