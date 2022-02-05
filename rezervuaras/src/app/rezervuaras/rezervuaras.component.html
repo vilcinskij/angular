@@ -1,1 +1,28 @@
-<p>rezervuaras works!</p>
+<div class="row mt-3">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header text-center">Rezervuaro skaičiuoklė</div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <label class="form-label">Rezervuaro talpa (l)</label>
+                    <input type="number" class="form-control" [(ngModel)]="talpa">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Rezervuaro pildymo greitis (l/val.)</label>
+                    <input type="number" class="form-control" [(ngModel)]="greitis">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Rezervuaro pildymo laikas (val.)</label>
+                    <input type="number" class="form-control" [(ngModel)]="laikas">
+                </div>
+                <button class="btn btn-success" (click)="skaiciuoti()">Skaičiuoti</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="card">
+            <div class="card-header text-center">Skaičiavimų rezultatai</div>
+            <div class="card-body">Talpa bus užpildyta: {{ rezultatas}} %</div>
+        </div>
+    </div>
+</div>
