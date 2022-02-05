@@ -13,7 +13,7 @@ export class RezervuarasComponent implements OnInit {
   rezultatas:number;
 
   skaiciuoti () {
-    this.rezultatas=this.talpa*2
+    this.rezultatas=(this.laikas*this.greitis/this.talpa) * 100
   }
 
   constructor() { }
