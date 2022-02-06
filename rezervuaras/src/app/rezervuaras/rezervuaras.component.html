@@ -21,8 +21,14 @@
     </div>
     <div class="col-6">
         <div class="card" *ngIf="rezultatas!=0; else instrukcijos">                                                                   <!-- *ngIf - nerodo konteinerio, jeigu sąlyga neteisinga, else - rodo konteinerį su #instrukcijos-->
-            <div class="card-header text-center">Skaičiavimų rezultatai</div>
-            <div class="card-body">Talpa bus užpildyta: {{ rezultatas}} %</div>
+            <div class="card-header text-center">
+                Skaičiavimų rezultatai
+            </div>
+            <div class="card-body">
+                <div class="alert alert-danger">
+                    Talpa bus užpildyta: {{ rezultatas}} %
+                </div>
+            </div>
         </div>
         <ng-template #instrukcijos>                                                                                                   <!-- # - local reference (lokali nuoroda)-->
             <div class="card">
