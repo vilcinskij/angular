@@ -25,8 +25,11 @@
                 Skaičiavimų rezultatai
             </div>
             <div class="card-body">
-                <div class="alert alert-danger">
-                    Talpa bus užpildyta: {{ rezultatas}} %
+                <div class="alert" [ngClass]="{                    
+                    'alert-danger':rezultatas>=100,
+                    'alert-warning':rezultatas>=80 && rezultatas<100
+                }">
+                    Talpa bus užpildyta: {{ rezultatas.toFixed(2) }} %
                 </div>
             </div>
         </div>
