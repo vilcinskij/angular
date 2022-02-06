@@ -24,8 +24,8 @@
             <div class="card-header text-center">
                 Skaičiavimų rezultatai
             </div>
-            <div class="card-body">
-                <div class="alert" [ngClass]="{                    
+            <div class="card-body">                                                                                                   <!-- *ngClass - taiko css priklausomai nnuo sąlygos-->
+                <div class="alert" [ngClass]="{
                     'alert-danger':rezultatas>=100,
                     'alert-warning':rezultatas>=80 && rezultatas<100
                 }">
