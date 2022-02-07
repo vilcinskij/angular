@@ -38,31 +38,36 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td scope="row">18 - 25</td>
+                      <tr class="" [ngClass]="{
+                        'alert alert-dark':kmi>=18 && kmi<25}">
+                        <td scope="row" >18 - 25</td>
                         <td>Normalus svoris</td>
                         <td>Nėra</td>
                         <td>green</td>
                       </tr>
-                      <tr>
+                      <tr class="" [ngClass]="{
+                        'alert alert-dark':kmi>=25 && kmi<30}">
                         <td scope="row">25 - 30</td>
                         <td>Antsvoris</td>
                         <td>Nedidelė, stengtis, kad nedidėtų</td>
                         <td>light green</td>
                       </tr>
-                      <tr>
+                      <tr class="" [ngClass]="{
+                        'alert alert-dark':kmi>=30 && kmi<35}">
                         <td scope="row">30 - 35</td>
                         <td >Io nutukimas</td>
                         <td>Padidėjusi, būtina mažinti svorį</td>
                         <td>yellow</td>
                       </tr>
-                      <tr>
+                      <tr class="" [ngClass]="{
+                        'alert alert-dark':kmi>=35 && kmi<40}">
                         <td scope="row">35 - 40</td>
                         <td >IIo nutukimas</td>
                         <td>Didelė, būtina mažinti svorį</td>
                         <td>orange</td>
                       </tr>
-                      <tr>
+                      <tr class="" [ngClass]="{
+                        'alert alert-dark':kmi>=40}">
                         <td scope="row">40 - 99</td>
                         <td >IIIo (liguistas) nutukimas</td>
                         <td>Labai didelė, būtina mažinti</td>
