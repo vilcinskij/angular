@@ -12,14 +12,16 @@ export class PirkiniaiComponent implements OnInit {
   kiekis:string;
   prekes: Preke[]=[];
 
-  addPreke(){
-    this.prekes.push( new Preke (this.pavadinimas, this.kiekis));
-
-  };
-
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  addPreke(){
+    if (this.pavadinimas!="" && this.kiekis!="")
+    this.prekes.push( new Preke (this.pavadinimas, this.kiekis));
+    this.pavadinimas="";
+    this.kiekis="";
+  };
 
 }
