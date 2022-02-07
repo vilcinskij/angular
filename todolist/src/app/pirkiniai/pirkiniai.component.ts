@@ -8,8 +8,8 @@ import { Preke } from './preke.model';
 })
 export class PirkiniaiComponent implements OnInit {
 
-  pavadinimas:string;
-  kiekis:string;
+  pavadinimas:string="";
+  kiekis:string="";
   prekes: Preke[]=[];
 
   constructor() { }

@@ -21,7 +21,10 @@
             <div class="card-header">Pirkinių krepšelis</div>
             <div class="card-body">
                 <ul class="list-group">
-                    <li class="list-group-item" *ngFor="let preke of prekes"> {{ preke.pavadinimas }} {{preke.kiekis}} </li>     <!-- Masyvo išvedimas - klases Preke elementu išvedimas -->
+                    <li class="list-group-item" *ngFor="let preke of prekes; let i=index">                                  <!-- Masyvo išvedimas - klases Preke elementu išvedimas -->
+                        {{ i+1 }}. {{ preke.pavadinimas }} {{preke.kiekis}} 
+
+                    </li>     
                 </ul>
             </div>
         </div>
