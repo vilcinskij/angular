@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Preke } from './preke.model';
 
 @Component({
   selector: 'app-pirkiniai',
@@ -9,7 +10,7 @@ export class PirkiniaiComponent implements OnInit {
 
   pavadinimas:string;
   kiekis:string;
-  prekes:string[]=[];
+  prekes: Preke[]=[ new Preke("Obuoliai", "1kg"), new Preke("kriause", "2kg")];
 
   addPreke(){
 
