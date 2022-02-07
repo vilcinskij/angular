@@ -33,7 +33,10 @@
                 </div>
                 Istoriniai duomenys:
                 <ul class="list-group">
-                    <li class="list-group-item" *ngFor="let rezult of rezultatai">{{ rezult.toFixed(2) }} %</li>                                  <!-- # - sudaromas buvusiu rezultatu sąrašas-->
+                    <li class="list-group-item" *ngFor="let rezult of rezultatai" [ngClass]="{
+                        'alert-danger':rezult[]>=100,
+                        'alert-warning':rezult[]>=80 && rezult[]<100
+                    }">{{ rezult.toFixed(2) }} %</li>                                  <!-- # - sudaromas buvusiu rezultatu sąrašas-->
                 </ul>
 
             </div>
