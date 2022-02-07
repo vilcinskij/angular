@@ -10,9 +10,10 @@ export class PirkiniaiComponent implements OnInit {
 
   pavadinimas:string;
   kiekis:string;
-  prekes: Preke[]=[ new Preke("Obuoliai", "1kg"), new Preke("kriause", "2kg")];
+  prekes: Preke[]=[];
 
   addPreke(){
+    this.prekes.push( new Preke (this.pavadinimas, this.kiekis));
 
   };
 
