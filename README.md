@@ -11,3 +11,5 @@ Darbas su direktyvomis, Angular template, local reference, property direktyva. <
 Su *ngIf pakeisti atvaizdavimo rezultatą, kai duomenis dar neįvesti. Su [ngClass] pakeisti atvaizdavimo spalvą esant reultatams nuo 80% iki 100% ir virš 100%.
 
 KMI_2.0 - patobulinti KMI skaičiuoklę, kad indeksas atsirastu tik po duomenų įvedimo (naudojant *ngIf) ir šalia išryškėtu vieną eilutė iš sąrašo (naudojant [ngClass]).
+
+REZERVUARAS_2.0 - patobulinti rezervuaro skaičiuoklę, kad būtu atvaizduojami visi anksčiau atlikti skaičiavimai.
