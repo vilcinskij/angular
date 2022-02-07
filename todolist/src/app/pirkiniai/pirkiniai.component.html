@@ -23,6 +23,7 @@
                 <ul class="list-group">
                     <li class="list-group-item" *ngFor="let preke of prekes; let i=index">                                  <!-- Masyvo išvedimas - klases Preke elementu išvedimas -->
                         {{ i+1 }}. {{ preke.pavadinimas }} {{preke.kiekis}} 
+                        <button class="btn btn-danger float-end">Trinti</button>
 
                     </li>     
                 </ul>
