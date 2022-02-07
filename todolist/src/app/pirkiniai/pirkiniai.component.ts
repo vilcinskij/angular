@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PirkiniaiComponent implements OnInit {
 
+  pavadinimas:string;
+  kiekis:string;
+  prekes:string[]=[];
+
+  addPreke(){
+
+  };
+
   constructor() { }
 
   ngOnInit(): void {

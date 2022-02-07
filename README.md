@@ -13,6 +13,6 @@ Su *ngIf pakeisti atvaizdavimo rezultatą, kai duomenis dar neįvesti. Su [ngCla
 KMI_2.0 - patobulinti KMI skaičiuoklę, kad indeksas atsirastu tik po duomenų įvedimo (naudojant *ngIf) ir šalia išryškėtu vieną eilutė iš sąrašo (naudojant [ngClass]).
 
 REZERVUARAS_2.0 - patobulinti rezervuaro skaičiuoklę, kad būtu atvaizduojami visi anksčiau atlikti skaičiavimai. <br>
-Sąrašo sudarymas importuojant rezultatus į masyvą ir automatinis atnaujinimas su *ngFor atvaizduojant masyvo elementus
+Sąrašo sudarymas importuojant rezultatus į masyvą ir automatinis atnaujinimas su *ngFor atvaizduojant masyvo elementus.
 
-ToDoList - sukurti prekių sąrašą kuri galima papildyti ir ištrinti
+ToDoList - sukurti pirkinių sąrašą kuri galima papildyti ir ištrinti.
