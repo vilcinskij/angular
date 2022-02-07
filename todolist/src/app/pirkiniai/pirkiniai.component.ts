@@ -18,10 +18,11 @@ export class PirkiniaiComponent implements OnInit {
   }
 
   addPreke(){
-    if (this.pavadinimas!="" && this.kiekis!="")
-    this.prekes.push( new Preke (this.pavadinimas, this.kiekis));
-    this.pavadinimas="";
-    this.kiekis="";
-  };
+    if (this.pavadinimas!="" && this.kiekis!="") {
+      this.prekes.push( new Preke (this.pavadinimas, this.kiekis));
+      this.pavadinimas="";
+      this.kiekis="";
+    }
+  }
 
 }
