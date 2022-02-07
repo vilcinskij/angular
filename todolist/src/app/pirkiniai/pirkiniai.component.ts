@@ -25,4 +25,8 @@ export class PirkiniaiComponent implements OnInit {
     }
   }
 
+  trinti(i){
+    this.prekes.splice(i,1)
+  }
+
 }
