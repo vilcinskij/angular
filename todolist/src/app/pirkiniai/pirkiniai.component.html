@@ -21,7 +21,7 @@
             <div class="card-header">Pirkinių krepšelis</div>
             <div class="card-body">
                 <ul class="list-group">
-                    <li class="list-group item">Obuoliai, 1 kg</li>
+                    <li class="list-group item" *ngFor="let preke of prekes"> {{ preke.pavadinimas+" "+preke.kiekis}} </li>     <!-- Masyvo išvedimas - klases Preke elementu išvedimas -->
                 </ul>
             </div>
         </div>
