@@ -14,3 +14,5 @@ KMI_2.0 - patobulinti KMI skaičiuoklę, kad indeksas atsirastu tik po duomenų 
 
 REZERVUARAS_2.0 - patobulinti rezervuaro skaičiuoklę, kad būtu atvaizduojami visi anksčiau atlikti skaičiavimai. <br>
 Sąrašo sudarymas importuojant rezultatus į masyvą ir automatinis atnaujinimas su *ngFor atvaizduojant masyvo elementus
+
+ToDoList - sukurti prekių sąrašą kuri galima papildyti ir ištrinti
