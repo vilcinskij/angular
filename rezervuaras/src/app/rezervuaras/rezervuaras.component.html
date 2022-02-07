@@ -31,6 +31,14 @@
                 }">
                     Talpa bus užpildyta: {{ rezultatas.toFixed(2) }} %
                 </div>
+
+                <ul class="list-group">
+                    <li class="list-group-item">2</li>
+                    <li class="list-group-item">5</li>
+                    <li class="list-group-item">9</li>
+                </ul>
+                <div *ngFor="let rezult of rezultatai">{{ rezult }}</div>
+
             </div>
         </div>
         <ng-template #instrukcijos>                                                                                                   <!-- # - local reference (lokali nuoroda)-->

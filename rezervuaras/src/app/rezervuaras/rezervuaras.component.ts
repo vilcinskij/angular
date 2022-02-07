@@ -12,6 +12,8 @@ export class RezervuarasComponent implements OnInit {
   laikas: number;
   rezultatas:number = 0;
 
+  rezultatai:number[]=[8,9,11,25];
+
   skaiciuoti () {
     this.rezultatas=(this.laikas*this.greitis/this.talpa) * 100
   }
