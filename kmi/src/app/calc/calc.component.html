@@ -44,7 +44,7 @@
                         <td>Normalus svoris</td>
                         <td>Nėra</td>
                         <td>
-                            <div style="border-radius: 50%; background-color: green; width: auto; height: auto;"></div>
+                            <div class="circle-kmi" style="background-color: green;"></div>
                         </td>
                       </tr>
                       <tr class="" [ngClass]="{
@@ -52,28 +52,36 @@
                         <td scope="row">25 - 30</td>
                         <td>Antsvoris</td>
                         <td>Nedidelė, stengtis, kad nedidėtų</td>
-                        <td>light green</td>
+                        <td>
+                            <div class="circle-kmi" style="background-color: yellowgreen;"></div>
+                        </td>
                       </tr>
                       <tr class="" [ngClass]="{
                         'alert alert-dark':kmi>=30 && kmi<35}">
                         <td scope="row">30 - 35</td>
                         <td >Io nutukimas</td>
                         <td>Padidėjusi, būtina mažinti svorį</td>
-                        <td>yellow</td>
+                        <td>
+                            <div class="circle-kmi" style="background-color: yellow;"></div>
+                        </td>
                       </tr>
                       <tr class="" [ngClass]="{
                         'alert alert-dark':kmi>=35 && kmi<40}">
                         <td scope="row">35 - 40</td>
                         <td >IIo nutukimas</td>
                         <td>Didelė, būtina mažinti svorį</td>
-                        <td>orange</td>
+                        <td>
+                            <div class="circle-kmi" style="background-color: orange;"></div>
+                        </td>
                       </tr>
                       <tr class="" [ngClass]="{
                         'alert alert-dark':kmi>=40}">
                         <td scope="row">40 - 99</td>
                         <td >IIIo (liguistas) nutukimas</td>
                         <td>Labai didelė, būtina mažinti</td>
-                        <td>red</td>
+                        <td>
+                            <div class="circle-kmi" style="background-color: red;"></div>
+                        </td>
                       </tr>
                     </tbody>
                   </table>
