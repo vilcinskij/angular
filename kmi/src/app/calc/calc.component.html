@@ -16,7 +16,7 @@
                 </div>
                 <button class="btn btn-success" (click)="calc()">SKAIČIUOTI</button>                    <!-- Grąžina 'calc' iš component.ts rezultatą-->
                 <hr>
-                <div class="alert alert-light text-end">
+                <div class="alert alert-light text-end" *ngIf="kmi!=0">
                     JŪSŲ KMI: {{ kmi.toFixed(1) }}                                                                  <!-- toFixed(1) palieka (1) skaičių po kablelio -->
                 </div>
             </div>
