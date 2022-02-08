@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Uzduotis } from './uzduotis.model';
 
 @Component({
   selector: 'app-tasklist',
@@ -7,17 +8,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TasklistComponent implements OnInit {
 
-  uzduotis:string="";
+  pavadinimas:string="";
   tipas:string="";
-  uzdsarasas:string []=[];
+  uzdsarasas:Uzduotis []=[];
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  addUzduotis() {
+  addUzduotis(){
+    if (this.pavadinimas!="" && this.tipas!="") {
+      this.uzdsarasas.push( new Uzduotis (this.pavadinimas, this.tipas));
+      this.pavadinimas="";
+      this.tipas="";
+    }
+  }
 
+  trinti(i){
+    this.uzdsarasas.splice(i,1)
   }
 
 }

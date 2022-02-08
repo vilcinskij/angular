@@ -5,7 +5,7 @@
             <div class="card-body">
                 <div class="mb-3">
                     <label for="" class="form-label">Uždoties pavadinimas</label>
-                    <input type="text" class="form-control" [(ngModel)]="uzduotis">
+                    <input type="text" class="form-control" [(ngModel)]="pavadinimas">
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label">Užduoties tipas</label>
@@ -16,7 +16,7 @@
                         <option value="ypacs">Ypač skubus</option>
                       </select>
                 </div>
-                <button class="btn btn-success" (click)="addUzduotis()" [disabled]="tipas=='' || uzduotis==''" >Pridėti</button>  
+                <button class="btn btn-success" (click)="addUzduotis()" [disabled]="pavadinimas=='' || tipas==''" >Pridėti</button>  
             </div>
         </div>
     </div>
@@ -26,11 +26,11 @@
             <div class="card-header">Užduočių sąrašas</div>
             <div class="card-body">
                 <ul class="list-group">
-                    <!-- <li class="list-group-item" *ngFor="let preke of prekes; let i=index">                                   -->
-                        <!-- {{ i+1 }}. {{ preke.pavadinimas }} {{preke.kiekis}} 
-                        <button class="btn btn-danger float-end" (click)="trinti(i)">Trinti</button> -->
+                    <li class="list-group-item" *ngFor="let uzduotis of uzdsarasas; let i=index">                                  
+                        {{ i+1 }}. {{ uzduotis.pavadinimas }} {{ uzduotis.tipas }} 
+                        <button class="btn btn-danger float-end" (click)="trinti(i)">Trinti</button>
 
-                    <!-- </li>      -->
+                    </li>     
                 </ul>
             </div>
         </div>
