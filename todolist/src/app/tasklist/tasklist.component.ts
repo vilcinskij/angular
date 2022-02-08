@@ -8,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class TasklistComponent implements OnInit {
 
   uzduotis:string="";
+  tipas:string="";
+  uzdsarasas:string []=[];
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  addUzduotis() {
+
   }
 
 }

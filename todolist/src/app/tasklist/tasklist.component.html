@@ -7,13 +7,22 @@
                     <label for="" class="form-label">Uždoties pavadinimas</label>
                     <input type="text" class="form-control" [(ngModel)]="uzduotis">
                 </div>
-                <!-- <button class="btn btn-success" (click)="addPreke()" [disabled]="kiekis=='' || pavadinimas==''" >Pridėti</button>   -->
+                <div class="mb-3">
+                    <label for="" class="form-label">Užduoties tipas</label>
+                    <select class="form-select" [(ngModel)]="tipas">
+                        <option value="neskubus">Neskubus</option>
+                        <option value="rutininis">Rutininis</option>
+                        <option value="skubus">Skubus</option>
+                        <option value="ypacs">Ypač skubus</option>
+                      </select>
+                </div>
+                <button class="btn btn-success" (click)="addUzduotis()" [disabled]="tipas=='' || uzduotis==''" >Pridėti</button>  
             </div>
         </div>
     </div>
     <hr class="mt-3">
     <div class="col md-12">
-        <!-- <div class="card" *ngIf="prekes.length!=0"> -->
+        <div class="card" *ngIf="uzdsarasas.length!=0">
             <div class="card-header">Užduočių sąrašas</div>
             <div class="card-body">
                 <ul class="list-group">
@@ -24,6 +33,6 @@
                     <!-- </li>      -->
                 </ul>
             </div>
-        <!-- </div> -->
+        </div>
     </div>
 </div>
