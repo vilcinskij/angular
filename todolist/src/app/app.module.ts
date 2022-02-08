@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { PirkiniaiComponent } from './pirkiniai/pirkiniai.component';
 import { FormsModule } from '@angular/forms';
+import { TasklistComponent } from './tasklist/tasklist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PirkiniaiComponent
+    PirkiniaiComponent,
+    TasklistComponent
   ],
   imports: [
     BrowserModule,
