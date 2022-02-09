@@ -22,7 +22,8 @@ export class TasklistComponent implements OnInit {
     if (this.pavadinimas!="" && this.tipas!="") {
       this.uzdsarasas.push( new Uzduotis (this.pavadinimas, this.tipas));
       this.pavadinimas="";
-      this.tipas="";
+      this.tipas="";      
+      this.alert = true;
     } else {
       this.alert = false;
     }
