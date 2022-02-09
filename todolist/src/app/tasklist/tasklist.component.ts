@@ -11,6 +11,7 @@ export class TasklistComponent implements OnInit {
   pavadinimas:string="";
   tipas:string="";
   uzdsarasas:Uzduotis []=[];
+  alert = true;
 
   constructor() { }
 
@@ -22,6 +23,8 @@ export class TasklistComponent implements OnInit {
       this.uzdsarasas.push( new Uzduotis (this.pavadinimas, this.tipas));
       this.pavadinimas="";
       this.tipas="";
+    } else {
+      this.alert = false;
     }
   }
 
