@@ -16,7 +16,7 @@
                         <option value="Ypač skubus">Ypač skubus</option>
                       </select>
                 </div>
-                <button class="btn btn-success" (click)="addUzduotis()">Pridėti</button>  
+                <button class="btn btn-success" (click)="addUzduotis()"><i class="fa-regular fa-square-plus"></i> Pridėti</button>  
                 <div class="alert alert-danger mt-3" role="alert" [hidden]="alert">
                     Prašome užpildyti visus laukus!
                   </div>
@@ -31,7 +31,7 @@
                 <ul class="list-group">
                     <li class="list-group-item" *ngFor="let uzduotis of uzdsarasas; let i=index">                                  
                         {{ i+1 }}. {{ uzduotis.pavadinimas }} {{ uzduotis.tipas }} 
-                        <button class="btn btn-danger float-end" (click)="trinti(i)">Trinti</button>
+                        <button class="btn btn-danger float-end" (click)="trinti(i)"><i class="fa-solid fa-trash"></i> Trinti</button>
 
                     </li>     
                 </ul>
