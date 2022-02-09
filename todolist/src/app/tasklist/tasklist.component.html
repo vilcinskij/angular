@@ -10,13 +10,13 @@
                 <div class="mb-3">
                     <label for="" class="form-label">Užduoties tipas</label>
                     <select class="form-select" [(ngModel)]="tipas">
-                        <option value="neskubus">Neskubus</option>
-                        <option value="rutininis">Rutininis</option>
-                        <option value="skubus">Skubus</option>
-                        <option value="ypacs">Ypač skubus</option>
+                        <option value="Neskubus">Neskubus</option>
+                        <option value="Rutininis">Rutininis</option>
+                        <option value="Skubus">Skubus</option>
+                        <option value="Ypač skubus">Ypač skubus</option>
                       </select>
                 </div>
-                <button class="btn btn-success" (click)="addUzduotis()" [disabled]="pavadinimas=='' || tipas==''" >Pridėti</button>  
+                <button class="btn btn-success" (click)="addUzduotis()">Pridėti</button>  
             </div>
         </div>
     </div>
