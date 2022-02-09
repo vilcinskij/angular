@@ -16,4 +16,4 @@ REZERVUARAS_2.0 - patobulinti rezervuaro skaičiuoklę, kad būtu atvaizduojami 
 Sąrašo sudarymas importuojant rezultatus į masyvą ir automatinis atnaujinimas su *ngFor atvaizduojant masyvo elementus.
 
 ToDoList - sukurti pirkinių sąrašą kuri galima papildyti ir ištrinti. 
-Tasklist - sukurti darbų sąrašą su galimybe pasirinkti darbo tipą.
+Tasklist - sukurti darbų sąrašą su galimybe pasirinkti darbo tipą.  Neįvedus bent vieno lauko parodyti pranešimą apie klaidą ir pašalinti pranešimą, kai duoemnis bus suvesti.
