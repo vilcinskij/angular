@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { warehouseData } from "./warehouse.data"
 
 @Component({
   selector: 'app-warehouse',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./warehouse.component.css']
 })
 export class WarehouseComponent implements OnInit {
+
+  
 
   constructor() { }
 
