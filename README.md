@@ -15,7 +15,7 @@ KMI_2.0 - patobulinti KMI skaičiuoklę, kad indeksas atsirastu tik po duomenų 
 REZERVUARAS_2.0 - patobulinti rezervuaro skaičiuoklę, kad būtu atvaizduojami visi anksčiau atlikti skaičiavimai. <br>
 Sąrašo sudarymas importuojant rezultatus į masyvą ir automatinis atnaujinimas su *ngFor atvaizduojant masyvo elementus.
 
-ToDoList - sukurti pirkinių sąrašą kuri galima papildyti ir ištrinti. 
+ToDoList - sukurti pirkinių sąrašą kuri galima papildyti ir ištrinti. <br>
 Tasklist - sukurti darbų sąrašą su galimybe pasirinkti darbo tipą.  Neįvedus bent vieno lauko parodyti pranešimą apie klaidą ir pašalinti pranešimą, kai duoemnis bus suvesti.
 
 Sandelis
