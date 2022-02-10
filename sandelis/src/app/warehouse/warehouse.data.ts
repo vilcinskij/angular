@@ -1,4 +1,4 @@
-[
+export const warehouseData=[
     {
         name: "Buitine technika",
         products: [
