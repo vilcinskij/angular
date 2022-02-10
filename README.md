@@ -17,3 +17,5 @@ Sąrašo sudarymas importuojant rezultatus į masyvą ir automatinis atnaujinima
 
 ToDoList - sukurti pirkinių sąrašą kuri galima papildyti ir ištrinti. 
 Tasklist - sukurti darbų sąrašą su galimybe pasirinkti darbo tipą.  Neįvedus bent vieno lauko parodyti pranešimą apie klaidą ir pašalinti pranešimą, kai duoemnis bus suvesti.
+
+Sandelis
