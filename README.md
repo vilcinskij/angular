@@ -2,7 +2,7 @@
 
 Bandomieji darbai su angular
 
-KMI - kuno masės indekso skaičiuoklė. Pirmas darbas. <br>
+<b>KMI</b> - kuno masės indekso skaičiuoklė. Pirmas darbas. <br>
 Data maining iš input lauko į Type Script ir rezultato išvedimas atgal į naršyklę. <br>
 Panašiai kaip: https://apie-camelia.lt/kmi-skaiciuokle
 
