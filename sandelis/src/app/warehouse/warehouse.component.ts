@@ -8,6 +8,7 @@ import { warehouseData } from "./warehouse.data"
 })
 export class WarehouseComponent implements OnInit {
 
+  warehouseData=warehouseData;
   
 
   constructor() { }
