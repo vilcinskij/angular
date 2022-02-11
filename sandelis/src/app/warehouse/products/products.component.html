@@ -1,1 +1,5 @@
-<p>Čia bus prekių sąrašas</p>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let product of products">
+        {{ product.name }}
+    </li>
+</ul>
