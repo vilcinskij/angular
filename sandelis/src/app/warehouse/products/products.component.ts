@@ -14,4 +14,8 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  order(name:string){
+    console.log("Užsakomas: "+name);
+  }
+
 }

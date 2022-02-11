@@ -10,7 +10,11 @@ export class WarehouseComponent implements OnInit {
 
   warehouseData=warehouseData;
   orders=[];
-  
+
+  onOrder(order: {name:string}){
+    this.orders.push(order.name);
+  }
+
 
   constructor() { }
 
