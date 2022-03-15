@@ -23,3 +23,5 @@ Sąrašo sudarymas importuojant rezultatus į masyvą ir automatinis atnaujinima
 Galimybė pridėti prekes iš krepšelio į sandėlį
 
 
+
+
