@@ -19,3 +19,9 @@ Sąrašo sudarymas importuojant rezultatus į masyvą ir automatinis atnaujinima
 <b>Tasklist</b> - sukurti darbų sąrašą su galimybe pasirinkti darbo tipą.  Neįvedus bent vieno lauko parodyti pranešimą apie klaidą ir pašalinti pranešimą, kai duoemnis bus suvesti.
 
 <b>Sandelis</b>
+
+Galimybė pridėti prekes iš krepšelio į sandėlį
+
+
+
+
