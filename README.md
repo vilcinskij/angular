@@ -1,4 +1,4 @@
-# Angular+++
+# Angular
 
 Bandomieji darbai su angular
 
