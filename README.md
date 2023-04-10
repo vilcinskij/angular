@@ -1,6 +1,6 @@
 # Angular
 
-Bandomieji darbai su angular
+Bandomieji darbai su angular+×
 
 <b>KMI</b> - kuno masės indekso skaičiuoklė. Pirmas darbas. <br>
 Data maining iš input lauko į Type Script ir rezultato išvedimas atgal į naršyklę. <br>
